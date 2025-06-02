@@ -37,7 +37,7 @@ data_button.addEventListener("click",async function(){
                             <div class="d-flex align-items-center">
                                 <i class="fa-solid fa-wind fa-2x"></i>
                                 <div class="ml-3 text-left">
-                                    <p class=" h4">${current.wind_kph} km/h</p>
+                                    <p class=" h4">${Math.round(current.wind_kph)} km/h</p>
                                     <small>Wind Speed</small>
                                 </div>
                             </div>
